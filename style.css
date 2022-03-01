@@ -1,0 +1,151 @@
+.container{
+    width:60%;
+    margin: auto; 
+}
+
+.clr{
+    clear: both;
+}
+
+h1 , h2{
+    color:#9921e8;
+    font-weight: 500;
+}
+
+.separatingline{
+    border-left: 1px solid blue;
+    height: 25px;
+    padding-right: 20px;
+}
+
+.title{
+    float:left;
+}
+
+.search{   
+    margin-top: 5px;
+    background-image: linear-gradient(#f6fca9,#99d693);
+    padding:20px;
+    float:right;
+    width: 340px;
+}
+
+.search input[type="text"]{
+    background-image: url(images/search.png);
+    background-position:right;   
+    background-repeat:no-repeat;
+    background-size: 15px;   
+    padding-left:17px;
+    border:1px #99d693 solid;
+    width: 150px;
+}
+
+.search input[type="submit"]{
+    background-color: rgb(138, 57, 138);
+    color: white;
+    float:right;
+    border:1px rgb(173, 118, 173) solid; 
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.options{
+    background-image: linear-gradient(#f1e8a0,#dbcd13);
+    padding-left: 55px; 
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#home{
+    color: purple;
+    font-weight: bold;
+}
+
+.post{
+    background-image: linear-gradient(#f6fca9,#99d693);
+    padding-top:10px;
+    padding-bottom:15px ;
+    padding-left:15px ;
+    padding-right:15px ;
+}
+
+.post h1{
+    color:green;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+p{
+    color:rgb(25, 119, 25);
+}
+
+a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: blue;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+.categories1{
+    border:1px #99d693 solid;
+    padding-left:20px;
+    border-radius: 15px;
+    width: 45%;
+    float:left;
+}
+
+.categories1 h2{
+    font-weight: 1000;
+    padding-bottom: 10px;
+}
+
+.categories1 ul{
+    padding-left:30px;
+    list-style: none;
+}
+
+.categories1 li{
+    padding-left:8px;
+    padding-bottom:4px;
+    list-style-image: url(images/arrow.png);
+}
+
+.categories2{
+    border:1px #99d693 solid;
+    padding-left:20px;
+    padding-bottom: 35px;
+    border-radius: 15px;
+    width: 48%;
+    float:right;
+}
+
+.categories2 h2{
+    font-weight: 1000;
+    padding-bottom: 10px;
+}
+
+.categories2 ul{
+    padding-left:70px;
+    list-style: none;
+}
+
+.categories2 li{
+    padding-left:8px;
+    padding-bottom:4px;
+    list-style-image: url(images/tick.png);
+    color:blue;
+}
+
+.main_footer{
+    background-image: linear-gradient(#f1e8a0,#dbcd13);
+    padding-left: 25px;
+    padding-top:5px;
+    padding-bottom:8px;    
+}
+
+.main_footer p{
+    color:black;
+}
